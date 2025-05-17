@@ -34,7 +34,7 @@ export default function ContactForm({ onAdd }) {
                 </label>
                 <label className={styles.label}>
                     Number
-                    <Field type="text" name="number" className={styles.input} />
+                    <Field type="number" name="number" className={styles.input} />
                     <ErrorMessage name="number" component="div" className={styles.error} />
                 </label>
                 <button type="submit" className={styles.button}>
