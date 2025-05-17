@@ -1,0 +1,6 @@
+.contactList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 sütun sabit */
+  gap: 16px;
+  padding: 16px;
+}
